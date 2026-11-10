@@ -120,6 +120,14 @@
   ul.notice li{margin-bottom:.6em}
 
   .final{text-align:center}
+  .link-banner{display:block;text-decoration:none;text-align:center;max-width:460px;margin:0 auto;padding:22px 20px;
+    border-radius:var(--radius);background:linear-gradient(135deg,#fdf3f6 0%,#efe7f7 55%,#f7efdc 100%);
+    border:1px solid var(--gold-soft);box-shadow:0 6px 18px rgba(120,90,130,.12);transition:transform .2s}
+  .link-banner:hover{transform:translateY(-2px)}
+  .lb-tag{display:inline-block;font-size:12px;font-weight:700;color:#fff;background:var(--gold);border-radius:999px;padding:2px 12px;margin-bottom:8px}
+  .lb-title{display:block;font-family:"Shippori Mincho",serif;font-weight:600;font-size:20px;line-height:1.6;letter-spacing:.06em}
+  .lb-sub{display:block;font-size:13px;color:var(--ink-soft);margin:6px 0 12px}
+  .lb-go{display:inline-block;font-size:14px;font-weight:700;color:#7a5a9a;border-bottom:1px solid currentColor}
   footer{background:#3b3540;color:#eee;text-align:center;padding:28px 20px;font-size:13px}
   footer a{color:#fff}
 
@@ -291,6 +299,17 @@
       <h2><span class="en">RESERVATION</span>ご予約</h2>
       <p>霊視鑑定 60分 20,000円<br>新規のご予約を受け付けています。</p>
       <a class="cta" href="https://lin.ee/eno7jO0" target="_blank" rel="noopener">公式LINEで鑑定を予約する</a>
+    </div>
+  </section>
+  <section id="links" class="links">
+    <div class="wrap">
+      <h2><span class="en">LINK</span>関連サイト</h2>
+      <a class="link-banner" href="https://motonory-a.github.io/my-first-project/" target="_blank" rel="noopener">
+        <span class="lb-tag">生年月日で無料鑑定</span>
+        <span class="lb-title">大開運！魂の系統で選ぶ<br>天然石ブレスレット</span>
+        <span class="lb-sub">全94種の「魂の系統」から、あなたに合う天然石がわかります</span>
+        <span class="lb-go">サイトを見る <span aria-hidden="true">→</span></span>
+      </a>
     </div>
   </section>
 </main>
