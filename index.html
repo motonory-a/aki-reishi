@@ -102,6 +102,8 @@
   /* 鑑定について — ブラッシュの面 */
   .tone{background:var(--blush)}
   .about-grid{display:grid;gap:30px}
+  br.pc{display:none}@media (min-width:640px){br.pc{display:inline}}
+  .about-text p:first-child{font-family:var(--serif-ja);font-weight:500;font-size:clamp(17px,4.4vw,20px);line-height:2;letter-spacing:.08em;margin-bottom:1.4em}
   .lead{font-family:var(--serif-ja);font-weight:500;font-size:clamp(19px,5vw,24px);line-height:1.9;letter-spacing:.1em;margin:0}
   @media (min-width:860px){.about-grid{grid-template-columns:1fr 1.1fr;gap:64px}}
 
@@ -255,13 +257,9 @@
   <section id="about" class="tone">
     <div class="wrap">
       <div class="sec-head"><h2>鑑定について</h2><span class="en">About</span></div>
-      <div class="about-grid">
-        <p class="lead">守護存在から受け取るメッセージを、あき自身の言葉でお伝えします。</p>
-        <div class="measure">
-          <p>霊視鑑定は、あきが守護存在から受け取るメッセージを、あき自身の言葉でお伝えするスピリチュアルセッションです。</p>
-          <p>お話をうかがいながら、ご相談者さまが今どんなことに心を向けているのかを一緒に見ていきます。受け取り方や感じ方には個人差があります。</p>
-          <p style="margin:0">オンラインでも対面でもお受けしています。対面は新宿駅の近くで行っています。ご都合のよい方法をLINEでお知らせください。</p>
-        </div>
+      <div class="measure about-text">
+        <p>霊視鑑定は、守護存在からメッセージを受け取ったり、<br class="pc">前世、未来世、色んなお悩みに関する内容をお伝えするスピリチュアルセッションです。</p>
+        <p>お話を丁寧にお伺いしながら、ご相談者様が今どんなことに悩まれ、心を向けているのかを一緒に見ていきます。<br>受け取り方や感じ方には個人差がございます。<br>鑑定はオンラインや対面でもお受けしております。<br>対面は新宿駅の近くで行っております。<br>ご都合のよい鑑定方法をLINEでお知らせください。</p>
       </div>
     </div>
   </section>
