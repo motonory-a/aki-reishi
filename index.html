@@ -133,6 +133,18 @@
   .menu-card dt,.menu-card dd{margin:0;padding:11px 0;border-top:1px solid var(--blush)}
   .menu-card dt{color:var(--ink-soft);letter-spacing:.14em}
 
+  .menu-list{max-width:560px;margin:46px auto 0}
+  .menu-list h3{font-family:var(--serif-ja);font-weight:600;font-size:19px;letter-spacing:.18em;margin:0 0 8px;text-align:center}
+  .menu-list ul{list-style:none;margin:0;padding:0}
+  .menu-list li{position:relative;padding:18px 0 18px 30px;border-bottom:1px solid var(--rose)}
+  .menu-list li::before{content:"";position:absolute;left:2px;top:27px;width:14px;height:14px;border-radius:50%;
+    background:radial-gradient(circle at 40% 35%,#e8d6b4,var(--champagne) 70%);box-shadow:0 0 0 3px rgba(201,176,138,.22)}
+  .menu-list strong{display:block;font-family:var(--serif-ja);font-weight:600;font-size:18px;letter-spacing:.12em}
+  .menu-list li span{display:block;font-size:13.5px;color:var(--ink-soft);margin-top:2px}
+  .menu-list li.tags{display:flex;flex-wrap:wrap;gap:8px}
+  .menu-list li.tags span{display:inline-block;margin:0;font-size:13px;color:var(--ink);background:var(--white);border:1px solid var(--rose);border-radius:999px;padding:3px 13px}
+  .menu-note{font-size:12.5px;color:var(--ink-soft);margin:16px 0 0}
+
   /* 予約の流れ(本当の手順なので番号付き) */
   ol.flow{list-style:none;margin:0 0 36px;padding:0;counter-reset:step;display:grid;gap:0}
   ol.flow li{counter-increment:step;display:grid;grid-template-columns:64px 1fr;align-items:baseline;padding:18px 0;border-bottom:1px solid var(--rose)}
@@ -296,6 +308,17 @@
           <dt>お支払い</dt><dd>現金・クレジットカード</dd>
           <dt>日程</dt><dd>公式LINEでご相談ください</dd>
         </dl>
+      </div>
+
+      <div class="menu-list">
+        <h3>鑑定の内容</h3>
+        <ul>
+          <li><strong>霊視鑑定</strong><span>相談内容を守護存在に聞いてお伝えいたします</span></li>
+          <li><strong>魂の色鑑定</strong><span>魂の色を知ると本来の内なるあなたが目覚めます</span></li>
+          <li><strong>パワーストーン鑑定</strong></li>
+          <li class="tags"><span>全体運</span><span>恋愛</span><span>金運アップ方法</span><span>写真鑑定</span><span>前世</span><span>未来世</span><span>開運メイク</span><span>開運美容法</span><span>……etc</span></li>
+        </ul>
+        <p class="menu-note">霊視鑑定以外のメニューの時間・料金は、公式LINEでお問い合わせください。</p>
       </div>
     </div>
   </section>
