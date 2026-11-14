@@ -69,7 +69,6 @@
   .tategaki{grid-area:1/1;align-self:end;justify-self:start;writing-mode:vertical-rl;font-family:var(--serif-ja);font-weight:500;
     font-size:clamp(21px,5.9vw,30px);letter-spacing:.26em;line-height:1.7;margin:0 0 4px 0;z-index:2;color:var(--ink)}
   .tategaki span{display:block}
-  .tategaki span:first-child{color:var(--dusty)}
   .tategaki span:last-child{padding-top:2.4em}
   .cover-lines{grid-area:2/1;margin-top:28px;display:grid;gap:18px;position:relative;z-index:3}
   .cover-title{font-family:var(--serif-ja);font-weight:600;font-size:clamp(24px,6.4vw,34px);letter-spacing:.14em;line-height:1.6;margin:0}
@@ -172,11 +171,11 @@
 
   /* ご案内(開運美容法・講演) */
   section.announce{padding:56px 0}
-  .announce-box{position:relative;max-width:640px;margin:0 auto;padding:34px 24px;text-align:center;background:var(--white)}
+  .announce-box{position:relative;max-width:640px;margin:0 auto;padding:42px 24px 38px;text-align:center;background:var(--white)}
   .announce-box::before{content:"";position:absolute;inset:0;padding:2px;background:var(--glitter),var(--foil);background-size:120px,100%;
     -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0);pointer-events:none}
-  .announce-title{font-family:var(--serif-ja);font-weight:600;font-size:clamp(22px,5.6vw,28px);letter-spacing:.24em;margin:0 0 14px;line-height:1.4}
-  .announce-title::after{content:"";display:block;width:44px;height:1.5px;margin:12px auto 0;background:var(--foil)}
+  .announce-title{font-family:var(--serif-ja);font-weight:600;font-size:clamp(30px,8.4vw,42px);letter-spacing:.2em;margin:0 0 16px;line-height:1.35;color:#9a5a66;text-indent:.2em}
+  .announce-title::after{content:"";display:block;width:72px;height:2px;margin:14px auto 0;background:var(--glitter),var(--foil);background-size:60px,100%}
   .announce-box p{margin:0;text-wrap:pretty;font-family:var(--serif-ja);font-weight:500;font-size:clamp(16px,4.2vw,19px);line-height:2.1;letter-spacing:.08em}
 
   /* 修了証 */
@@ -293,7 +292,6 @@
       <div class="profile">
         <figure class="p-photo" style="margin:0">
           <span class="p-img"><img src="assets/aki_profile_coat.jpg" alt="白衣姿のあき" width="720" height="1028" loading="lazy"></span>
-          <figcaption>あき／琉球ユタ家系姉妹の妹</figcaption>
         </figure>
         <div class="measure">
           <p class="p-name" aria-hidden="true">Aki</p>
@@ -411,7 +409,7 @@
 
   <section class="final">
     <div class="wrap">
-      <p class="closing">あなたの心が向かう先を、<br>一緒に見つめる60分を。</p>
+      <p class="closing">あなたのお悩みが<br>解決されますように。</p>
       <p class="sub">霊視鑑定 60分 20,000円／新規のご予約を受け付けています</p>
       <a class="cta" href="https://lin.ee/eno7jO0">公式LINEで鑑定を予約する</a>
     </div>
